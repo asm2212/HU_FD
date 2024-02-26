@@ -1,7 +1,9 @@
-import { Menu} from "lucide-react"
-import { SheetTrigger,Sheet, SheetContent, SheetTitle, SheetDescription } from "./ui/sheet"
-import { Separator } from "./ui/separator"
-import { Button } from "./ui/button"
+
+
+import { Menu } from 'lucide-react';
+import { SheetTrigger, Sheet, SheetContent, SheetTitle, SheetDescription } from './ui/sheet';
+import { Separator } from './ui/separator';
+import { Button } from './ui/button';
 
 const MobileNav = () =>{
     return(
@@ -15,10 +17,11 @@ const MobileNav = () =>{
                 </SheetTitle>
                 <Separator />
                 <SheetDescription className="flex">
-                         <Button className="flex-1 font-bold bg-red-500">Login</Button>
+                    <Button className="flex-1 font-bold bg-red-500">Login</Button>
                 </SheetDescription>
             </SheetContent>
         </Sheet>
     );
 };
-export default MobileNav
+
+export default MobileNav;

@@ -1,11 +1,12 @@
-import { Button } from "./ui/button";
+
+import { Button } from './ui/button';
 
 const MainNav = () =>{
     return(
-<Button variant="ghost"
-        className="font-bold hover:text-red-500 hover:bg-white">
-    Login
-</Button>
+        <Button variant="ghost"
+                className="font-bold hover:text-red-500 hover:bg-white">
+            Login
+        </Button>
     );
 };
 
