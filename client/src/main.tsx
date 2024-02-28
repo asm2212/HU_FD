@@ -8,10 +8,10 @@ import Auth0ProviderWithNavigate from './auth/Auth0ProviderWithNavigate'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Router>
-      <Auth0ProviderWithNavigate>
-      <AppRoutes/>
-      </Auth0ProviderWithNavigate>
-    
+      {/* <Auth0ProviderWithNavigate>
+        <AppRoutes/>
+      </Auth0ProviderWithNavigate> */}
+    <AppRoutes />
     </Router>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
